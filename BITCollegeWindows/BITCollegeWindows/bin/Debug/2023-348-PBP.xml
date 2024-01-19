@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Registration Grading file -->
+
+<student_update date="2023-12-14" program="PBP" checksum="960000043">
+	<transaction>
+		<program>CA</program>
+		<student_no>80000001</student_no>
+		<course_no>G-80004</course_no>
+		<registration_no>*</registration_no>
+		<type>1</type>
+		<grade>@</grade>
+		<notes>***ERROR*** Invalid Grade Value</notes>
+	</transaction>
+	<transaction>
+		<program>CA</program>
+		<student_no>80000004</student_no>
+		<course_no>G-800011</course_no>
+		<registration_no>*</registration_no>
+		<type>1</type>
+		<grade>*</grade>
+		<notes>***ERROR*** Cannot register for a course with an open registration</notes>
+	</transaction>
+</student_update>

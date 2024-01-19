@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!-- Registration Grading file -->
+
+<student_update date="2023-12-14" program="CA" checksum="960000043">
+	<transaction>
+		<program>CA</program>
+		<student_no>80000004</student_no>
+		<course_no>*</course_no>
+		<registration_no>8019</registration_no>
+		<type>2</type>
+		<grade>51</grade>
+		<notes>Good grade update</notes>
+	</transaction>
+	<transaction>
+		<program>CA</program>
+		<student_no>80000001</student_no>
+		<course_no>G-80004</course_no>
+		<registration_no>*</registration_no>
+		<type>1</type>
+		<grade>@</grade>
+		<notes>***ERROR*** Invalid Grade Value</notes>
+	</transaction>
+	<transaction>
+		<program>CA</program>
+		<student_no>80000004</student_no>
+		<course_no>*</course_no>
+		<registration_no>8020</registration_no>
+		<type>2</type>
+		<grade>35.4</grade>
+		<notes>Good grade update</notes>
+	</transaction>	
+	<transaction>
+		<program>CA</program>
+		<student_no>80000004</student_no>
+		<course_no>G-800011</course_no>
+		<registration_no>*</registration_no>
+		<type>1</type>
+		<grade>*</grade>
+		<notes>***ERROR*** Cannot register for a course with an open registration</notes>
+	</transaction>
+	<transaction>
+		<program>CA</program>
+		<student_no>80000004</student_no>
+		<course_no>M-80008</course_no>
+		<registration_no>*</registration_no>
+		<type>1</type>
+		<grade>*</grade>
+		<notes>***ERROR*** This registration would exceed the maximum allowable attempts</notes>
+	</transaction>
+	<transaction>
+		<program>CA</program>
+		<student_no>80000004</student_no>
+		<course_no>D-12345</course_no>
+		<registration_no>*</registration_no>
+		<type>1</type>
+		<grade>*</grade>
+		<notes>***ERROR*** Course does not exist</notes>
+	</transaction>
+	<transaction>
+		<program>CA</program>
+		<student_no>80000004</student_no>
+		<course_no>A-8002</course_no>
+		<registration_no>*</registration_no>
+		<type>1</type>
+		<grade>*</grade>
+		<notes>Good registration</notes>
+	</transaction>
+	<transaction>
+		<program>CA</program>
+		<student_no>80000002</student_no>
+		<course_no>G-80005</course_no>
+		<registration_no>2001</registration_no>
+		<type>2</type>
+		<grade>22</grade>
+		<notes>***ERROR*** Course for Type 2 should be a *</notes>
+	</transaction>
+	<transaction>
+		<program>CA</program>
+		<student_no>80000004</student_no>
+		<course_no>A-8007</course_no>
+		<registration_no>*</registration_no>
+		<type>1</type>
+		<grade>100</grade>
+		<notes>***ERROR***  Grade for Type 1 should be a *</notes>
+	</transaction>	
+	<transaction>
+		<program>CA</program>
+		<student_no>80000004</student_no>
+		<course_no>G-800003</course_no>
+		<registration_no>*</registration_no>
+		<type>1</type>
+		<grade>*</grade>
+		<notes>Good Registration</notes>
+	</transaction>
+	<transaction>
+		<program>CA</program>
+		<student_no>80000004</student_no>
+		<course_no>G-800004</course_no>
+		<registration_no>*</registration_no>
+		<type>1</type>
+		<grade>*</grade>
+		<notes>Good Registration</notes>
+	</transaction>
+	<transaction>
+		<program>CA</program>
+		<student_no>80000004</student_no>
+		<course_no>G-800009</course_no>
+		<registration_no>*</registration_no>
+		<type>1</type>
+		<notes>***ERROR*** Incorrect number of nodes</notes>
+	</transaction>
+</student_update>
